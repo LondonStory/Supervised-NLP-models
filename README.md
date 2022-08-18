@@ -16,6 +16,10 @@ Hindi-BERT | Hindi | UMSAB | Transformers Trainer object | 8 | 2e-5 | 3 | 40.9% 
 Twitter-XLM-roBERTa-base | Hindi | UMSAB | Transformers Trainer object | 32 | 2e-5 | 15 | 47.7% | [Notebook](https://github.com/LondonStory/Supervised-NLP-models/blob/main/T-XLM-RoBERTa-base-fine-tuning-for-sentiment-analysis-task-using-UMSAB-dataset.ipynb)
 Hindi-BERT | Hindi | Review dataset | Keras | 6 | 1.2e-4 | 3 | 79% | [Notebook](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Hindi-BERT-fine-tuning-with-keras-using-review-dataset.ipynb)
  
+## Forward inference predictions on CrowdTangle dataset
 
+- [Multilingual sentiment analysis using XLM-RoBERTa model](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Multilingual_Sentiment_Analysis_using_XLM_RoBERTa.ipynb)
+
+- [Toxicity inference on CrowdTangle data by using Google's Perspective API](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Toxicity-inference-on-CrowdTangle-data-with-Perspective-API.ipynb)
   
 
