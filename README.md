@@ -7,7 +7,7 @@ Various pre-trained language models are fine tuned on various labelled datasets,
 The goal is to automatically filter out the toxic contents and identify harmful actors within the CrowdTangle platform.
 
 
-## Benchmark results from fine-tuning the pre-trained models
+## Benchmark results from fine-tuning the pre-trained models/ Leaderboard
 
 
  Pre-trained model | Language | Training dataset | Method | Batch size | Learning Rate | Epochs | Macro F1 | Link to the code
