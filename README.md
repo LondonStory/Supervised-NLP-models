@@ -20,7 +20,7 @@ Twitter-XLM-roBERTa-base | Hindi | [Review dataset](https://github.com/LondonSto
 **Remarks on optimised hyperparameter choices in native PyTorch training:**
 
 * We have used only two epochs in training `T-XLM-RoBERTa-base` because afterwards the validation loss starts increasing again. `Epoch 2` is found to be the point of inflection, after which the difference between the training and validation loss starts increasing rapidly (i.e., starts overfitting). 
-* The model is seen to train poorly with lower batch size than `16` (experiemented with 10 & 8). 
+* The model is seen to train poorly with lower batch size than `16` (experiemented with batch sizes `10` and `8`). 
 * Optimum learning rate for `T-XLM-roBERTa-base` model is found to be `2e-5`. Experimented with lower values (i.e., `1.2e-4`), but the training becomes inefficient. 
 * Maximum sequence of word piece tokens (greater than which the text snippets are truncated), is chosen to be `312`. This is good enough for experiementing with social media text snippets. If the length is kept at `512`, the performance drops. Also it runs the risk of having cuda memory issues.
 
