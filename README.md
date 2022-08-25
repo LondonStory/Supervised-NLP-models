@@ -37,16 +37,14 @@ Twitter-XLM-roBERTa-base | Hindi | [Review dataset](https://github.com/LondonSto
 - `Accuracy` = number of correct predictions / total predictions
 - `Precision` = TP / (TP + FP)
 - `Recall` = TP / (TP + FN)
+- `F1-score` = 2 x (Precision x Recall)/ (Precision + Recall)
 
-In other words, precision is the percentage of outcomes that are positive. And recall is the percentage of actual positives that were correctly identified.
+In other words, precision is the percentage of outcomes that are positive. And recall is the percentage of actual positives that were correctly identified. And F1-score is the harmonic mean of precision and recall scores. 
 
 **Case 1.** Having high precision but low recall means that although the model is good at predicting the positive class, it only detects a small proportion of the total number of positive outcomes. Therefore the model is under-predicting.
 
 **Case 2.** Having low precision but high recall means that although the model correctly predicted most of the positive cases, it also predicted a lot of negatives to be positive too. Therefore, the model is over-predicting.
 
-- `F1-score` = 2 x (Precision x Recall)/ (Precision + Recall)
-
-F1-score is thus the harmonic mean of precision and recall scores. 
 
 ## Notebooks on forward inference prediction tasks on CrowdTangle dataset
 
