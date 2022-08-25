@@ -24,14 +24,25 @@ Twitter-XLM-roBERTa-base | Hindi | [Review dataset](https://github.com/LondonSto
 * Optimum learning rate for `T-XLM-roBERTa-base` model is found to be `2e-5`. Experimented with lower values (i.e., `1.2e-4`), but the training becomes inefficient. 
 * Maximum sequence of word piece tokens (greater than which the text snippets are truncated), is chosen to be `312`. This is good enough for experiementing with social media text snippets. If the length is kept at `512`, the performance drops. Also it runs the risk of having cuda memory issues.
 
-**Measures of model evaluation**
+**Elements of the confusion matrix**
 
-- `accuracy` = number of correct predictions / total predictions
+
 - `True positives (TP)` are positive outcomes that the model predicts correctly
 - `True Negatives (TN)` are negative outcomes that the model predicted correctly
 - `False Positives (FP)` or `Type I error` are positive outcomes that the model has predicted incorrectly
 - `False Negatives (FN)` or `Type II error` are negative outcomes that the model predicted incorrectly
 
+**Measures of model evaluation**
+
+- `Accuracy` = number of correct predictions / total predictions
+- `Precision` = TP / (TP + FP)
+- `Recall` = TP / (TP + FN)
+
+In other words, precision is the percentage of outcomes that are positive. And recall is the percentage of actual positives that were correctly identified.
+
+Case 1. Having high precision but low recall means that although the model is good at predicting the positive class, it only detects a small proportion of the total number of positive outcomes. Therefore the model is under-predicting.
+
+Case 2. Having low precision but high recall means that although the model correctly predicted most of the positive cases, it also predicted a lot of negatives to be positive too. Therefore, the model is over-predicting.
 
 ## Notebooks on forward inference prediction tasks on CrowdTangle dataset
 
