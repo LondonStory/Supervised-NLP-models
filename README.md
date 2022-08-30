@@ -52,4 +52,4 @@ In other words, precision is the percentage of outcomes that are positive. And r
 
 - [Toxicity inference on CrowdTangle data by using Google's `Perspective API`](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Toxicity-inference-on-CrowdTangle-data-with-Perspective-API.ipynb)
   
-
+- [Sentiment prediction task (forward inference) on CrowdTangle's dataset by using the fine-tuned Hindi language model (with 89% F1 score)](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Forward-prediction-of-Hindi-sentiment-analysis.ipynb). For the results look [HERE](https://github.com/LondonStory/Supervised-NLP-models/tree/main/results)
