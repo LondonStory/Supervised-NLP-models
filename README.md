@@ -56,5 +56,5 @@ In other words, precision is the percentage of outcomes that are positive. And r
 
 ## Translation of CrowdTangle dataset (Hindi to English)
 
-- [Translating CrowdTangle Hindi entries to English for analysing the quality of forward prediction task](https://github.com/LondonStory/Supervised-NLP-models/blob/main/translate-from-hindi-to-english.ipynb)
+- [Translating CrowdTangle Hindi entries to English for analysing the quality of forward prediction task](https://github.com/LondonStory/Supervised-NLP-models/blob/main/translate-from-hindi-to-english.ipynb). For an example output of the results, see [HERE](https://github.com/LondonStory/Supervised-NLP-models/tree/main/results).
 
