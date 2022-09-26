@@ -62,4 +62,4 @@ In other words, precision is the percentage of outcomes that are positive. And r
 
 ## Extra resources
 
-- [Nirmala fonts] used in matplotlib plots to show the Devenagari fonts in [this notebook](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction.ipynb).
+- [Nirmala fonts](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Nirmala.ttf) used in matplotlib plots in order to show the Devenagari fonts [in this notebook](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction.ipynb).
