@@ -54,7 +54,12 @@ In other words, precision is the percentage of outcomes that are positive. And r
   
 - [Sentiment prediction task (forward inference) on CrowdTangle's dataset by using the `fine-tuned Hindi language XLM-roBERTa` model (with 89% F1 score)](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Forward-prediction-of-Hindi-sentiment-analysis.ipynb). For the results look [HERE](https://github.com/LondonStory/Supervised-NLP-models/tree/main/results)
 
+- [**Updated and optimised** sentiment prediction pipeline applied on CrowdTangle dataset - by using Huggingface transformer model(s) + histogram of the predicted scores + analysis of the top actors](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction.ipynb)
+
 ## Translation of CrowdTangle dataset (Hindi to English)
 
 - [Translating CrowdTangle Hindi entries to English for analysing the quality of forward prediction task](https://github.com/LondonStory/Supervised-NLP-models/blob/main/translate-from-hindi-to-english.ipynb). For an example output of the results, see [HERE](https://github.com/LondonStory/Supervised-NLP-models/tree/main/results).
 
+## Extra resources
+
+- [Nirmala fonts] used in matplotlib plots to show the Devenagari fonts in [this notebook](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction.ipynb).
