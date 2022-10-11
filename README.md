@@ -54,9 +54,13 @@ In other words, precision is the percentage of outcomes that are positive. And r
   
 - [Sentiment prediction task (forward inference) on CrowdTangle's dataset by using the `fine-tuned Hindi language XLM-roBERTa` model (with 89% F1 score)](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Forward-prediction-of-Hindi-sentiment-analysis.ipynb). For the results look [HERE](https://github.com/LondonStory/Supervised-NLP-models/tree/main/results)
 
-- [Updated and optimised sentiment prediction pipeline applied on CrowdTangle dataset - by using Huggingface transformer model(s) + histogram of the predicted scores + analysis of the top actors](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction.ipynb). Please note that one requires to load the [Nirmala fonts](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Nirmala.ttf) in order the matplotlib plots to function properly.
 
-- [**Most updated and optimised** sentiment prediction pipeline and translation model applied on CrowdTangle dataset - by using Huggingface transformer model(s) + histogram of the predicted scores + analysis of the top actors (predictions based on both the original and translated messages)](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction-with-translation.ipynb)
+- [Sentiment prediction pipeline + translation model applied on CrowdTangle dataset - by using Huggingface transformer model(s) + histogram of the predicted scores + analysis of the top actors (predictions based on both the original and translated messages)](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction-with-translation.ipynb)
+
+
+- [Updated and optimised sentiment prediction pipeline applied on CrowdTangle dataset - by using Huggingface transformer model. Results: histogram of the predicted scores + analysis of the top actors.](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-sentiment-prediction.ipynb). Please note that one requires to load the [Nirmala fonts](https://github.com/LondonStory/Supervised-NLP-models/blob/main/Nirmala.ttf) in order the matplotlib plots to function properly.
+
+- [Hatespeech prediction forward pass aaplied on CrowdTangle dataset. Results: histogram of the predicted labels + analysis of the top actors.](https://github.com/LondonStory/Supervised-NLP-models/blob/main/CrowdTangle-hatespeech-prediction.ipynb)
 
 ## Translation of CrowdTangle dataset (Hindi to English)
 
